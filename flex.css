@@ -9,12 +9,18 @@
 .titolo {
 
     display: flex;
-    flex-basis: 80%;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
     margin: 70px;
+    padding: 20px;
     border: solid 2px;
-    justify-content: center;
 }
+
+div p {
+    color: rgb(151, 152, 152);
+}
+
+
 
 main {
     display: flex;
@@ -26,10 +32,33 @@ main {
 .cards {
 
     width: 300px;
-    border: solid 2px;
+    border: solid 1px;
+    min-height: auto;
     padding: 30px;
     background: rgb(255, 255, 255);
+    border-radius: 20px;
 
+
+}
+
+.cards2 {
+    width: 300px;
+    border: solid 1px;
+    bor min-height: auto;
+    padding: 30px;
+    background: rgb(88, 193, 225);
+    border-radius: 20px;
+    color: rgb(251, 249, 252);
+}
+
+
+.reco {
+
+    color: rgb(251, 249, 252);
+}
+
+ul {
+    list-style: none;
 }
 
 footer {
