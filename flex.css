@@ -26,29 +26,31 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 
 }
 
 .cards {
 
-    width: 300px;
+    width: 240px;
     border: solid 1px;
     min-height: auto;
     padding: 30px;
     background: rgb(255, 255, 255);
     border-radius: 20px;
-
-
 }
 
+
 .cards2 {
-    width: 300px;
+
+    width: 240px;
     border: solid 1px;
-    bor min-height: auto;
+    min-height: auto;
     padding: 30px;
     background: rgb(88, 193, 225);
     border-radius: 20px;
     color: rgb(251, 249, 252);
+
 }
 
 
