@@ -7,12 +7,15 @@
 
 
 .titolo {
+
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin: 70px;
+    justify-content: space-evenly;
+    margin: 20px;
     padding: 20px;
-    border: solid 2px;
+    font-size: 15px;
+    max-width: 900%;
+    margin: 0 auto;
 }
 
 div p {
@@ -29,8 +32,11 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* align-items: center; */
-    /* tolgo per centrare bene */
+    max-width: 900%;
+    margin: 0px auto;
+    width: 100%;
+
+
 }
 
 .cards {
@@ -47,7 +53,7 @@ main {
 .flex {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin: 3px;
 }
@@ -89,12 +95,34 @@ ul {
     row-gap: 20px;
 }
 
+.price {
+    text-align: center;
+}
+
+.numero {
+    font-size: 30px;
+}
+
+
+.mo {
+    font-size: 14px;
+    color: #888;
+}
+
+.Choose {
+    width: 170px;
+    padding: 10px;
+}
+
+
 .flex .year2 {
     color: rgb(251, 249, 252);
+    font-size: 13px;
 }
 
 .center p {
     color: rgb(1, 1, 1);
+    font-size: 13px;
 }
 
 .reco {
