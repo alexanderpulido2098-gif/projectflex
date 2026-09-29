@@ -34,10 +34,19 @@ main {
 
     width: 240px;
     border: solid 1px;
-    min-height: auto;
     padding: 30px;
     background: rgb(255, 255, 255);
     border-radius: 20px;
+
+
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
 }
 
 
@@ -45,12 +54,17 @@ main {
 
     width: 240px;
     border: solid 1px;
-    min-height: auto;
     padding: 30px;
     background: rgb(88, 193, 225);
     border-radius: 20px;
     color: rgb(251, 249, 252);
 
+}
+
+
+.center p {
+    color: rgb(251, 249, 252);
+    ;
 }
 
 
