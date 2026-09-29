@@ -7,7 +7,6 @@
 
 
 .titolo {
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -20,56 +19,85 @@ div p {
     color: rgb(151, 152, 152);
 }
 
+.div2 p {
+    color: rgb(255, 255, 255);
+}
+
 
 
 main {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-
+    /* align-items: center; */
+    /* tolgo per centrare bene */
 }
 
 .cards {
-
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
     width: 240px;
     border: solid 1px;
     padding: 30px;
     background: rgb(255, 255, 255);
     border-radius: 20px;
+}
 
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3px;
+}
 
+.center .year1 {
+    color: black;
+}
+
+.center .sconto {
+    color: black;
+    background-color: rgb(137, 139, 141);
+    padding: 5px;
+    border-radius: 5px;
+    margin: 3px;
 }
 
 .center {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-
 }
 
 
 .cards2 {
-
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
     width: 240px;
     border: solid 1px;
     padding: 30px;
     background: rgb(88, 193, 225);
     border-radius: 20px;
     color: rgb(251, 249, 252);
-
 }
 
+ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.flex .year2 {
+    color: rgb(251, 249, 252);
+}
 
 .center p {
-    color: rgb(251, 249, 252);
-    ;
+    color: rgb(1, 1, 1);
 }
 
-
 .reco {
-
     color: rgb(251, 249, 252);
 }
 
@@ -80,5 +108,4 @@ ul {
 footer {
     margin: 10px;
     background: rgb(255, 255, 255);
-
 }
